@@ -2,7 +2,7 @@
 A Python Class made for generating random strong password having 
 ```
 Uppercase A-Z, smallcase a-z, 
-special characters '!@#$%^&*()_+-=' and numbers 0-9.
+special characters !@#$%^&*()_+-= and numbers 0-9.
 ```
 It can generate strong password.
 By default it includes special characters and numbers in the generated password, but this can be turned off by using keyword arguments 
