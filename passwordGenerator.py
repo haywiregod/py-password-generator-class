@@ -78,10 +78,3 @@ class Password():
     self.info['password'] = self.password
     return self.password
 
-password_for = 'instagram.com'
-
-new_password_object = Password(password_for)
-length = 12 
-generated_password = new_password_object.create_password(length)
-print(generated_password)
-print(new_password_object.info)
